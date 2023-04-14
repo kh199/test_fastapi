@@ -11,6 +11,6 @@ docker-compose up -d
 ### Products
 + **GET** ```/api/products``` просмотр списка товаров
 + **POST**   ```/api/products```создание товара (парсинг по id)
-+ **GET**    ```/api/products/{product_id}```просмотр определенного товара 
-+ **DELETE**  ```/api/products/{product_id}``` удаление товара 
++ **GET**    ```/api/products/{product_id}```просмотр определенного товара по nm_id
++ **DELETE**  ```/api/products/{product_id}``` удаление товара по nm_id
 + **PATCH**  ```/api/products/{product_id}``` обновление количества товара (можно ввести свое значение)
