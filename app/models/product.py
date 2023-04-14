@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer
+from sqlalchemy import Column, Integer, String
 
 from app.core.db import Base
 
@@ -16,3 +16,4 @@ class Product(Base):
     rating = Column(Integer, nullable=False)
     feedbacks = Column(Integer)
     colors = Column(String)
+    quantity = Column(Integer)
